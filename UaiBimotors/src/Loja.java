@@ -39,7 +39,13 @@ public class Loja {
 		System.out.println("IPVA do carro que é filé! "+v2);
 		
 		
+		c2.mudarPreco(0);  // internamente na função mudarPreco o parâmetro
+								 // novoPreco = 5999.99
 		
+		
+		System.out.println("O patrao ficou doido... o carro agora custa R$ "+c2.preco);
+		
+	
 		
 	}
 }

@@ -29,4 +29,14 @@ public class Carro {
 		}
 		return valorIPVA;
 	}
+	
+	             // parametro
+	void mudarPreco(double novoPreco){
+		if (novoPreco <= 0) {
+			//ERRO
+		}
+		else {
+			preco = novoPreco;
+		}
+	}
 }
