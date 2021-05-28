@@ -24,9 +24,9 @@ public class Biblioteca {
 		
 		CadastradorDeLivros cadastrador = new CadastradorDeLivros();
 		
-		System.out.println("Antes de preencher   = "+l4.exibirInfo());
-		cadastrador.preencherInfoDoLivro(l4);
-		System.out.println("Depois de preenchido = "+l4.exibirInfo());
+//		System.out.println("Antes de preencher   = "+l4.exibirInfo());
+//		cadastrador.preencherInfoDoLivro(l4);
+//		System.out.println("Depois de preenchido = "+l4.exibirInfo());
 //		
 //		System.out.println(l1.exibirInfo());
 //		System.out.println(l4.exibirInfo());
@@ -36,6 +36,25 @@ public class Biblioteca {
 //		
 //		System.out.println(l1.exibirInfo());
 //		System.out.println(l4.exibirInfo());
+		
+		String s1 = new String("Oi quer tc?");
+		String s2 = new String("Oi quer tc?");
+		
+		if (s1 == s2) {
+			System.out.println("Apontam para o mesmo endereço de memória");
+		}
+		else {
+			System.out.println("Apontam para áreas de memória diferentes");
+		}
+		
+		if (s1.equals(s2)) {
+			System.out.println("tem o mesmo conteudo");
+		}
+		else {
+			System.out.println("tem conteudos distintos");
+		}
+		
+		
 	}
 
 }
