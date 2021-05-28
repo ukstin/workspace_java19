@@ -5,12 +5,24 @@ public class Empregado {
 	private double salario;
 	
 	
-			
 	public Empregado(String nome, String cargo, double salario) {
 		this.nome = nome;
 		this.cargo = cargo;
 		this.salario = salario;
 	}
+	
+
+	public Empregado(String nome, String cargo) {
+		super();
+		this.nome = nome;
+		this.cargo = cargo;
+	}
+	
+	public Empregado(String nome) {
+		super();
+		this.nome = nome;
+	}
+
 
 	public String getNome() {
 		return nome;
