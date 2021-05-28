@@ -6,7 +6,7 @@ public class EmpregadoTeste {
 		e1 = new Empregado();
 		e1.setNome("Professor Isidro");
 		e1.setCargo("Professor");
-		e1.setSalario(15000.00);
+		e1.setSalario(15000);
 		
 		System.out.println(e1.exibirInfo());
 		
