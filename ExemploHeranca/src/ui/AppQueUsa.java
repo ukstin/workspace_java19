@@ -16,7 +16,7 @@ public class AppQueUsa {
 //		e.setEmail("jose@jose.com");
 //		e.setTelefone("91234-5678");
 //		e.setNumeroMatricula(1234);
-//		e.setCurso("Computação");
+//		e.setCurso("Computação");		
 		
 		e.mostrarInfo();
 	}

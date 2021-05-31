@@ -9,6 +9,12 @@ public class Estudante extends Pessoa {
 	
 
 
+	public Estudante(String nome, String email, String telefone, int numeroMatricula, String curso) {
+		super(nome, email, telefone);
+		this.numeroMatricula = numeroMatricula;
+		this.curso = curso;
+	}
+
 	public void mostrarInfo() {
 		System.out.println("Estudante = "+nome+" "+email+" "+telefone+" "+numeroMatricula+" "+curso);
 		
