@@ -55,17 +55,12 @@ public class BombaDeCombustivel {
 		return qtdeLitros;
 	}
 
-	public void setQtdeLitros(double qtdeLitros) {
-		this.qtdeLitros = qtdeLitros;
-	}
+	
 
 	public double getValorPagar() {
 		return valorPagar;
 	}
 
-	public void setValorPagar(double valorPagar) {
-		this.valorPagar = valorPagar;
-	}
 	
 	
 	
