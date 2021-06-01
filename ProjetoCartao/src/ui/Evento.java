@@ -20,8 +20,6 @@ public class Evento {
 		for (int pos=0; pos < lista.size(); pos++) {
 			lista.get(pos).adicionarCredito(1000);
 			System.out.println(lista.get(pos));
-		}
-		
-		
+		}		
 	}
 }

@@ -48,7 +48,7 @@ public class Empregado {
 		this.salario = salario;
 	}
 
-	public String exibirInfo() {
+	public String toString() {
 		String info;
 		info = nome + " ("+cargo+")  R$ " + salario;
 		return info;

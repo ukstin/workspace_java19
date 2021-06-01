@@ -1,19 +1,24 @@
+import java.util.ArrayList;
 
 public class EmpregadoTeste {
 	public static void main(String[] args) {
-		Empregado e1;
+		ArrayList<Empregado> lista;
 		
-		e1 = new Empregado("Professor Isidro", "Professor", 15000.0);
-//		e1.setNome("Professor Isidro");
-//		e1.setCargo("Professor");
-//		e1.setSalario(15000);
+		lista = new ArrayList<Empregado>();
 		
-		System.out.println(e1.exibirInfo());
 		
-		e1.aumentarSalario(20);
+		lista.add(new Empregado("Isidro","Professor  ", 5000.00));
+		lista.add(new Empregado("Pedro ","Diretor    ", 6000.00));
+		lista.add(new Empregado("Maria ","Supervisora", 7000.00));
 		
-		System.out.println(e1.exibirInfo());
-		System.out.println("Exibindo apenas o salario "+e1.getSalario());
+		for (int pos=0; pos < lista.size(); pos++) {
+			Empregado e = lista.get(pos);
+			System.out.println(e);
+		}
 		
+		for (Empregado e : lista) { // para cada Empregado "e" na lista
+			e.aumentarSalario(10.0);
+			System.out.println(e);
+		}
 	}
 }
